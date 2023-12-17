@@ -9,6 +9,7 @@ import { Footer } from "./components/footer";
 import { Infosection } from "./components/infosection";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import { ScrollToTopButton } from './components/scrollToTopButton';
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -73,6 +74,7 @@ const App = () => {
 
 
       <Footer data={landingPageData.Contact} />
+       <ScrollToTopButton />
     </div>
   );
 };

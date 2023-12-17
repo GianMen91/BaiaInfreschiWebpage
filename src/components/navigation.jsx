@@ -28,12 +28,12 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
+              <a href="#description" className="page-scroll">
                 DESCRIZIONE
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="#infosection" className="page-scroll">
                 COME ARRIVARE ALLA BAIA DA SALERNO
               </a>
             </li>
