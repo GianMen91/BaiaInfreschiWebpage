@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 
 export const Navigation = (props) => {
+  const [isNavbarTransparent, setIsNavbarTransparent] = useState(true);
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    const newIsNavbarTransparent = scrollY === 0;
+    setIsNavbarTransparent(newIsNavbarTransparent);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const navbarClass = isNavbarTransparent ? 'navbar-default': 'navbar-default-transparent';
+
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+    <nav id="menu" className={`navbar ${navbarClass} navbar-fixed-top`}>
+          <div className="container">
         <div className="navbar-header">
           <button
             type="button"
