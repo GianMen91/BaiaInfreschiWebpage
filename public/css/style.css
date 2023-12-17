@@ -89,6 +89,23 @@ hr {
     color:  #6ec1e3;
 }
 
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.navbar-default .navbar-brand {
+    color: #6ec1e3;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #6ec1e3;
+}
+
+
 
 
 
@@ -96,6 +113,7 @@ hr {
 .intro {
   display: table;
   width: 100%;
+  min-height:90%;
   padding: 0;
   background: url(../img/baia-infreschi-homepage.jpg) center center no-repeat;
   background-color: #e5e5e5;
@@ -128,11 +146,7 @@ hr {
   margin: 0 auto;
   margin-bottom: 60px;
 }
-header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
-  text-align: center;
-}
+
 /* Features Section */
 #features {
   background: #f6f6f6;
