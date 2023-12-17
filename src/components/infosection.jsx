@@ -13,9 +13,9 @@ export const Infosection = ({ items }) => {
               </div>
               <div className="col-xs-12 col-md-10">
                 <div className="infosection-text">
-                  <p>{item.text}</p>
-                </div>
+                 <p dangerouslySetInnerHTML={{ __html: item.text }} />
               </div>
+               </div>
             </div>
           </div>
         ))}

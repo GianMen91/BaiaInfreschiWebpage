@@ -45,7 +45,10 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <Description data={landingPageData.Description} />
 
-      {/* First Banner */}
+      <Banner title="Gallery" text="" />
+
+      <Gallery data={landingPageData.Gallery} />
+
       {landingPageData.Banner.byVehicleText && (
         <Banner
           title="Come arrivare alla Baia da Salerno"
@@ -53,10 +56,10 @@ const App = () => {
         />
       )}
 
-      {/* First Infosection */}
+
       <Infosection items={infoSectionItems1} />
 
-      {/* Second Banner */}
+
       {landingPageData.Banner.byFootText && (
         <Banner
           title="Come arrivare alla Baia da Salerno"
@@ -64,13 +67,11 @@ const App = () => {
         />
       )}
 
-      {/* Second Infosection */}
+
       <Infosection items={infoSectionItems2} />
 
-      {/* Third Banner */}
-      <Banner title="Gallery" text="" />
 
-      <Gallery data={landingPageData.Gallery} />
+
       <Footer data={landingPageData.Contact} />
     </div>
   );
