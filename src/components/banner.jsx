@@ -7,7 +7,7 @@ export const Banner = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>{props.title}</h2>
-          <p>{props.text}</p>
+          <h3>{props.text}</h3>
         </div>
       </div>
     </div>
