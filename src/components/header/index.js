@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Header.css';
 
 export const Header = (props) => {
   const [isNavbarTransparent, setIsNavbarTransparent] = useState(true);
