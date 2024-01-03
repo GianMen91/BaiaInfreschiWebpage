@@ -18,33 +18,33 @@
   "Gallery": [
     {
       "title": "Arrivo all Baia degli Infreschi",
-      "largeImage": "img/gallery/arrivo_spiaggia_infreschi.jpg",
-      "smallImage": "img/gallery/arrivo_spiaggia_infreschi.jpg"
+      "largeImage": "../../Asset/gallery/arrivo_spiaggia_infreschi.jpg",
+      "smallImage": "../../Asset/gallery/arrivo_spiaggia_infreschi.jpg"
     },
     {
       "title": "Baia degli Infreschi",
-      "largeImage": "img/gallery/baia_infreschi.jpg",
-      "smallImage": "img/gallery/baia_infreschi.jpg"
+      "largeImage": "../../Asset/gallery/baia_infreschi.jpg",
+      "smallImage": "../../Asset/gallery/baia_infreschi.jpg"
     },
     {
       "title": "Il mare della Baia degli Infreschi",
-      "largeImage": "img/gallery/il_mare_baia_infreschi.jpg",
-      "smallImage": "img/gallery/il_mare_baia_infreschi.jpg"
+      "largeImage": "../../Asset/gallery/il_mare_baia_infreschi.jpg",
+      "smallImage": "../../Asset/gallery/il_mare_baia_infreschi.jpg"
     },
     {
       "title": "Baia degli Infreschi vista dal mare",
-      "largeImage": "img/gallery/spiaggia_infreschi_vista_mare.jpg",
-      "smallImage": "img/gallery/spiaggia_infreschi_vista_mare.jpg"
+      "largeImage": "../../Asset/gallery/spiaggia_infreschi_vista_mare.jpg",
+      "smallImage": "../../Asset/gallery/spiaggia_infreschi_vista_mare.jpg"
     },
     {
       "title": "Baia degli Infreschi vista dalla barca",
-      "largeImage": "img/gallery/vista_dalla_barca.jpg",
-      "smallImage": "img/gallery/vista_dalla_barca.jpg"
+      "largeImage": "../../Asset/gallery/vista_dalla_barca.jpg",
+      "smallImage": "../../Asset/gallery/vista_dalla_barca.jpg"
     },
     {
       "title": "Baia degli Infreschi vista del mare",
-      "largeImage": "img/gallery/vista_delmare_baia_infreschi.jpg",
-      "smallImage": "img/gallery/vista_delmare_baia_infreschi.jpg"
+      "largeImage": "../../Asset/gallery/vista_delmare_baia_infreschi.jpg",
+      "smallImage": "../../Asset/gallery/vista_delmare_baia_infreschi.jpg"
     }
   ]
 }
