@@ -1,15 +1,16 @@
 // App.jsx
 import React, { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
+import { ImageBlock } from "./components/imageBlock";
 import { Description } from "./components/description";
 import { Banner } from "./components/banner";
 import { Gallery } from "./components/gallery";
 import { Footer } from "./components/footer";
 import { Infosection } from "./components/infosection";
+import { ScrollToTopButton } from './components/scrollToTopButton';
+
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
-import { ScrollToTopButton } from './components/scrollToTopButton';
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -42,8 +43,8 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
+      <Header />
+      <ImageBlock data={landingPageData.ImageBlock} />
       <Description data={landingPageData.Description} />
 
       <Banner title="Gallery" text="" />
