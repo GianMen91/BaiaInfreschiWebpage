@@ -1,5 +1,5 @@
-// Banner.jsx
 import React from "react";
+import './Banner.css';
 
 export const Banner = (props) => {
   return (
