@@ -1,15 +1,15 @@
 // App.jsx
 import React, { useState, useEffect } from "react";
-import { Header } from "./components/header";
-import { ImageBlock } from "./components/imageBlock";
-import { Description } from "./components/description";
-import { Banner } from "./components/banner";
-import { Gallery } from "./components/gallery";
-import { Footer } from "./components/footer";
-import { Infosection } from "./components/infosection";
-import { ScrollToTopButton } from './components/scrollToTopButton';
+import { Header } from "./Components/Header";
+import { ImageBlock } from "./Components/ImageBlock";
+import { Description } from "./Components/Description";
+import { Banner } from "./Components/Banner";
+import { Gallery } from "./Components/Gallery";
+import { Footer } from "./Components/Footer";
+import { Infosection } from "./Components/InfoSection";
+import { ScrollToTopButton } from './Components/ScrollToTopButton';
 
-import JsonData from "./data/data.json";
+import JsonData from "./Common/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
