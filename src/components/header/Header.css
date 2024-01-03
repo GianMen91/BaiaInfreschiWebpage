@@ -1,0 +1,54 @@
+#menu {
+    padding: 15px;
+    transition: all 0.8s;
+  }
+  
+  .navbar-default {
+      background-color: white;
+      border-color: #e7e7e7;
+  }
+  
+  .navbar-default-transparent {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value for transparency */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  
+  .navbar-default-transparent .navbar-nav > li > a, .navbar-default .navbar-nav > li > a {
+      color: black;
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover {
+      color:  #6ec1e3;
+  }
+  
+  .navbar-brand {
+      float: left;
+      height: 50px;
+      padding: 15px 15px;
+      font-size: 22px;
+      line-height: 20px;
+  }
+  
+  .navbar-default-transparent .navbar-brand,.navbar-default .navbar-brand {
+      color: #6ec1e3;
+  }
+  
+  .navbar-default-transparent .navbar-brand:hover, .navbar-default .navbar-brand:hover {
+      color: #6ec1e3;
+  }
+  
+  .navbar-default-transparent .navbar-nav > .active > a, .navbar-default-transparent .navbar-nav > .active > a:hover, .navbar-default-transparent .navbar-nav > .active > a:focus {
+      color: #6ec1e3;
+      background-color: transparent;
+  }
+  
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+      color: #6ec1e3;
+      background-color: transparent;
+  }
+  
+  .nav > li > a:hover, .nav > li > a:focus {
+      text-decoration: none;
+      background-color: transparent;
+  }
