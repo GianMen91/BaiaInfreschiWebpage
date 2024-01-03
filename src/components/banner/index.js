@@ -13,3 +13,5 @@ export const Banner = (props) => {
     </div>
   );
 };
+
+export default Banner;

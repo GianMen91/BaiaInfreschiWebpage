@@ -29,3 +29,5 @@ export const Description = (props) => {
     </div>
   );
 };
+
+export default Description;

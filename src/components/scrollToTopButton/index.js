@@ -1,4 +1,3 @@
-// ScrollToTopButton.jsx
 import React, { useState, useEffect } from 'react';
 
 export const ScrollToTopButton = () => {
@@ -36,5 +35,7 @@ export const ScrollToTopButton = () => {
     </div>
   );
 };
+
+export default ScrollToTopButton;
 
 
