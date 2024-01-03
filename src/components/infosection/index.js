@@ -1,5 +1,5 @@
-// Infosection.jsx
 import React from "react";
+import './InfoSection.css';
 
 export const Infosection = ({ items }) => {
   return (

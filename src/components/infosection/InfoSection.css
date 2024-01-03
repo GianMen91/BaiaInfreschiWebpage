@@ -1,0 +1,16 @@
+.icon {
+    font-size: 5em; /* Adjust the font size as needed */
+  }
+  
+  .infosection-text p {
+    margin-left: 0.5em; /* Adjust the margin-top to control spacing between icons and text */
+  }
+  
+  #infosection {
+    padding: 100px 0;
+  }
+  
+  .info-container{
+      margin-top:20px;
+      margin-bottom:40px;
+  }
