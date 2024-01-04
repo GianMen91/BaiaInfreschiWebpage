@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "..Image/Image";
+import { Image } from "./image";
 import './Gallery.css';
 
 
