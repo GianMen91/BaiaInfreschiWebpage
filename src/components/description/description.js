@@ -1,5 +1,5 @@
 import React from "react";
-import './Description.css';
+import './description.css';
 
 export const Description = (props) => {
   return (

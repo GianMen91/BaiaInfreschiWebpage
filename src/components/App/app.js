@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { Header } from "../header/header";
-import { ImageBlock } from "../imageBlock/imageBlock";
-import { Description } from "../description/description";
-import { Banner } from "../banner/banner";
-import { Gallery } from "../gallery/gallery";
-import { Footer } from "../footer/footer";
-import { Infosection } from "../infoSection/infoSection";
-import { ScrollToTopButton } from '../scrollToTopButton/scrollToTopButton';
+import { Header } from "../header";
+import { ImageBlock } from "../imageBlock";
+import { Description } from "../description";
+import { Banner } from "../banner";
+import { Gallery } from "../gallery";
+import { Footer } from "../footer";
+import { Infosection } from "../infoSection";
+import { ScrollToTopButton } from '../scrollToTopButton';
 
 import JsonData from "../../Common/data.json";
 import SmoothScroll from "smooth-scroll";
-import "./App.css";
+import "./app.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
