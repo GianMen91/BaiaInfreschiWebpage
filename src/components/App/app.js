@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Header } from "../Header";
-import { ImageBlock } from "../ImageBlock";
-import { Description } from "../Description";
-import { Banner } from "../Banner";
-import { Gallery } from "../Gallery";
-import { Footer } from "../Footer";
-import { Infosection } from "../InfoSection";
-import { ScrollToTopButton } from '../ScrollToTopButton';
+import { Header } from "../header/header";
+import { ImageBlock } from "../imageBlock/imageBlock";
+import { Description } from "../description/description";
+import { Banner } from "../banner/banner";
+import { Gallery } from "../gallery/gallery";
+import { Footer } from "../footer/footer";
+import { Infosection } from "../infoSection/infoSection";
+import { ScrollToTopButton } from '../scrollToTopButton/scrollToTopButton';
 
 import JsonData from "../../Common/data.json";
 import SmoothScroll from "smooth-scroll";

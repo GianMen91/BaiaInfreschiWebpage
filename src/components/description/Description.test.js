@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Description } from './index';
+import { Description } from './description';
 
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ImageBlock } from './index';
+import { ImageBlock } from './imageBlock';
 
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
