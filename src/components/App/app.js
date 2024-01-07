@@ -8,7 +8,7 @@ import { Footer } from "../footer";
 import { Infosection } from "../infoSection";
 import { ScrollToTopButton } from '../scrollToTopButton';
 
-import JsonData from "../../Common/data.json";
+import JsonData from "../../common/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./app.css";
 
