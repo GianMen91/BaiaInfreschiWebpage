@@ -1,5 +1,5 @@
 import React from "react";
-import './ImageBlock.css';
+import './imageBlock.css';
 
 export const ImageBlock = (props) => {
   return (

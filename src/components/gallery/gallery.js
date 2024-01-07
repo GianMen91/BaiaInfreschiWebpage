@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "./image";
-import './Gallery.css';
+import './gallery.css';
 
 
 export const Gallery = (props) => {
