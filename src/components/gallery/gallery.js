@@ -1,7 +1,6 @@
-import React from "react";
-import { Image } from "./image";
-import './gallery.css';
-
+import React from 'react'
+import { Image } from './image'
+import './gallery.css'
 
 export const Gallery = (props) => {
   return (
@@ -18,15 +17,13 @@ export const Gallery = (props) => {
                       smallImage={d.smallImage}
                     />
                   </div>
-                ))
-              : "Loading..."}
+              ))
+              : 'Loading...'}
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-
-export default Gallery;
-
+export default Gallery

@@ -1,23 +1,23 @@
-import React, { useState, useEffect } from 'react';
-import './header.css';
+import React, { useState, useEffect } from 'react'
+import './header.css'
 
 export const Header = (props) => {
-  const [isNavbarTransparent, setIsNavbarTransparent] = useState(true);
+  const [isNavbarTransparent, setIsNavbarTransparent] = useState(true)
 
   const handleScroll = () => {
-    const scrollY = window.scrollY;
-    const newIsNavbarTransparent = scrollY === 0;
-    setIsNavbarTransparent(newIsNavbarTransparent);
-  };
+    const scrollY = window.scrollY
+    const newIsNavbarTransparent = scrollY === 0
+    setIsNavbarTransparent(newIsNavbarTransparent)
+  }
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll)
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
-  const navbarClass = isNavbarTransparent ? 'navbar-default': 'navbar-default-transparent';
+  const navbarClass = isNavbarTransparent ? 'navbar-default' : 'navbar-default-transparent'
 
   return (
     <nav id="menu" className={`navbar ${navbarClass} navbar-fixed-top`}>
@@ -29,11 +29,11 @@ export const Header = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            {' '}
+            <span className="sr-only">Toggle navigation</span>{' '}
+            <span className="icon-bar"></span>{' '}
+            <span className="icon-bar"></span>{' '}
+            <span className="icon-bar"></span>{' '}
           </button>
           <div className="navbar-brand">
             Baiainfreschi.it
@@ -59,7 +59,7 @@ export const Header = (props) => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

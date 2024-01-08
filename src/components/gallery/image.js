@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export const Image = ({ title, largeImage, smallImage }) => {
   return (
@@ -17,6 +17,5 @@ export const Image = ({ title, largeImage, smallImage }) => {
         </a>
       </div>
     </div>
-  );
-};
-
+  )
+}

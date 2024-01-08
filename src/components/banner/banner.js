@@ -1,5 +1,5 @@
-import React from "react";
-import './banner.css';
+import React from 'react'
+import './banner.css'
 
 export const Banner = (props) => {
   return (
@@ -11,7 +11,7 @@ export const Banner = (props) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner

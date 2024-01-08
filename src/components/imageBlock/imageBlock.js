@@ -1,5 +1,5 @@
-import React from "react";
-import './imageBlock.css';
+import React from 'react'
+import './imageBlock.css'
 
 export const ImageBlock = (props) => {
   return (
@@ -11,7 +11,7 @@ export const ImageBlock = (props) => {
           </div>
         </div>
       </div>
-  );
-};
+  )
+}
 
-export default ImageBlock;
+export default ImageBlock
