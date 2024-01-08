@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 #menu {
 padding: 15px;
 transition: all 0.8s;

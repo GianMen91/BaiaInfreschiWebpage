@@ -40,9 +40,3 @@
   line-height: 24px;
   margin: 30px 0;
 }
-
-@media (max-width: 768px) {
-  #description img {
-    margin: 50px 0;
-  }
-}
