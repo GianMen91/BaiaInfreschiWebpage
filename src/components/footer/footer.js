@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 
-export const Footer = (props) => {
+export const Footer = () => {
   return (
     <div>
       <div id="footer">

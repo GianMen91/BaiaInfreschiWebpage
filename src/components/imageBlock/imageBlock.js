@@ -1,7 +1,7 @@
 import React from 'react'
 import './imageBlock.css'
 
-export const ImageBlock = (props) => {
+export const ImageBlock = () => {
   return (
       <div className="intro">
         <div className="overlay">

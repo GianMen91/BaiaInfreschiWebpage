@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './header.css'
 
-export const Header = (props) => {
+export const Header = () => {
   const [isNavbarTransparent, setIsNavbarTransparent] = useState(true)
 
   const handleScroll = () => {
