@@ -1,21 +1,19 @@
 import React from 'react'
 import { Banner } from './banner'
 
-import Enzyme from 'enzyme'
+import Enzyme, { shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 
 Enzyme.configure({ adapter: new Adapter() })
 
 describe('<Banner />', () => {
   it('renders the Banner component with correct title and text', () => {
-    // Mock data
     const mockProps = {
       title: 'Test Title',
       text: 'Test Text'
     }
 
-    // Render the component with mock props
-    const wrapper = Enzyme.shallow(<Banner {...mockProps} />)
+    const wrapper = shallow(<Banner {...mockProps} />)
 
     // Assertions
     expect(wrapper.find('#banner').exists()).toBe(true)
