@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './banner.css'
 
 export const Banner = (props) => {
@@ -12,6 +13,11 @@ export const Banner = (props) => {
       </div>
     </div>
   )
+}
+
+Banner.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 }
 
 export default Banner

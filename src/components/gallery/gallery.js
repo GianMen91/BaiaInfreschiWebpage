@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Image } from './image'
 import './gallery.css'
 
@@ -23,6 +24,16 @@ export const Gallery = (props) => {
         </div>
       </div>
     </div>
+  )
+}
+
+Gallery.propTypes = {
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      largeImage: PropTypes.string.isRequired,
+      smallImage: PropTypes.string.isRequired
+    })
   )
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export const Image = ({ title, largeImage, smallImage }) => {
   return (
@@ -19,3 +20,11 @@ export const Image = ({ title, largeImage, smallImage }) => {
     </div>
   )
 }
+
+Image.propTypes = {
+  title: PropTypes.string.isRequired,
+  largeImage: PropTypes.string.isRequired,
+  smallImage: PropTypes.string.isRequired
+}
+
+export default Image

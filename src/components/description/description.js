@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './description.css'
 
 export const Description = (props) => {
@@ -29,6 +30,12 @@ export const Description = (props) => {
       </div>
     </div>
   )
+}
+
+Description.propTypes = {
+  data: PropTypes.shape({
+    paragraph: PropTypes.string
+  })
 }
 
 export default Description

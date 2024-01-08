@@ -6,6 +6,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.4",
+    "prop-types": "^15.8.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-grid-gallery": "^1.0.1-alpha.0",
