@@ -2,8 +2,11 @@
 
 ## Overview
 
-'Baiainfreschi.it' is a React-based project aimed at creating a high-performance landing page for Baia degli Infreschi. The project focuses on leveraging modern web development technologies to ensure optimal performance, maintainability, and a seamless user experience.
-This project aimed to create an enticing and informative landing page for Baia degli Infreschi, nestled along the picturesque Italian coastline.
+Baiainfreschi.it' (accessible online at https://www.baiainfreschi.it/) is a React-based project with the primary objective of crafting a high-performance landing page for Baia degli Infreschi. This landing page serves as a digital gateway, inviting visitors to immerse themselves in the enchanting beauty of Baia degli Infreschi.
+
+Nestled along the picturesque Italian coastline, Baia Infreschi captivates with its natural splendor and tranquility, attracting travelers to its pristine shores and azure waters. The project aims not only to entice enthusiasts to explore the allure of Baia Infreschi but also provides practical guidance on how to reach this idyllic destination.
+
+With a focus on utilizing cutting-edge web development technologies, the project ensures optimal performance, maintainability, and a seamless user experience, enhancing the virtual journey to Baia degli Infreschi.
 
 ## Technologies Utilized
 
