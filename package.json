@@ -1,5 +1,6 @@
 {
-  "name": "baia-infreschi-webpage",
+  "name": "baia-infreschi-landing-page",
+  "homepage": "https://www.baiainfreschi.it/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
