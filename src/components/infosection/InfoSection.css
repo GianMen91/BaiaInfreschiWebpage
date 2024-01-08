@@ -5,14 +5,16 @@
 }
 
 .icon {
-  font-size: 5em; /* Adjust the font size as needed */
-}
-
-.infosection-text p {
-  margin-left: 0.5em; /* Adjust the margin-top to control spacing between icons and text */
+  font-size: 5em; 
 }
 
 .info-container{
   margin-top:20px;
   margin-bottom:40px;
+}
+
+@media screen and (width < 700px) {
+  .icon {
+    margin-bottom:40px!important;
+  }
 }

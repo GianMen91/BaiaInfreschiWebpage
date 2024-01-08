@@ -9,14 +9,14 @@ export const Infosection = ({ items }) => {
         {items.map((item, index) => (
           <div key={index} className="info-container">
             <div className="row">
-              <div className="col-xs-12 col-md-2">
+              <div className="col-xs-12 col-md-2 text-center">
                 <i className={`fa ${item.icon} icon`} style={{ color: '#6ec1e3' }}></i>
               </div>
               <div className="col-xs-12 col-md-10">
                 <div className="infosection-text">
-                 <p dangerouslySetInnerHTML={{ __html: item.text }} />
+                  <p dangerouslySetInnerHTML={{ __html: item.text }} />
+                </div>
               </div>
-               </div>
             </div>
           </div>
         ))}
