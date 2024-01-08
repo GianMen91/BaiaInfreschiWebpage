@@ -1,5 +1,6 @@
 import React from 'react'
 import './infoSection.css'
+import PropTypes from 'prop-types'
 
 export const Infosection = ({ items }) => {
   return (
@@ -21,6 +22,15 @@ export const Infosection = ({ items }) => {
         ))}
       </div>
     </div>
+  )
+}
+
+Infosection.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      icon: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired
+    })
   )
 }
 
