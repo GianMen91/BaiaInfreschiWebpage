@@ -10,9 +10,11 @@
     background-size: cover;
     -o-background-size: cover;
   }
+
   .intro .overlay {
     background: rgba(0, 0, 0, 0.2);
   }
+
   .intro h1 {
     font-family: "Raleway", sans-serif;
     color: #fff;
@@ -22,10 +24,12 @@
     margin-top: 0;
     margin-bottom: 10px;
   }
+
   .intro h1 span {
     font-weight: 800;
     color: #5ca9fb;
   }
+  
   .intro p {
     color: #fff;
     font-size: 22px;

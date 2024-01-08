@@ -1,21 +1,25 @@
 #description {
     padding: 100px 0;
   }
+
   #description h3 {
     font-size: 22px;
     margin: 0 0 20px;
   }
+
   #description h2 {
     position: relative;
     margin-bottom: 15px;
     padding-bottom: 15px;
   }
+
   #description .description-text li {
     margin-bottom: 6px;
     margin-left: 6px;
     list-style: none;
     padding: 0;
   }
+
   #description .description-text li:before {
     content: "\f00c";
     font-family: "FontAwesome";
@@ -24,13 +28,15 @@
     font-weight: 300;
     padding-right: 8px;
   }
+
   #description img {
     width: 520px;
     margin-top: 10px;
     background: #fff;
     border-right: 0;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 50px #0000000f;
   }
+  
   #description p {
     line-height: 24px;
     margin: 30px 0;

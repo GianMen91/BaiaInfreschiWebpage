@@ -3,22 +3,26 @@
     background: #6ec1e3;
     color: #fff;
   }
+
   #banner .service-desc {
     margin: 10px 10px 20px;
   }
+
   #banner h2 {
     color: #fff;
   }
-  #banner .section-title h2::after {
+
+  #banner .section-title h2:after {
     position: absolute;
     content: "";
-    background: rgba(255, 255, 255, 0.3);
+    background: #ffffff4d;
     height: 4px;
     width: 60px;
     bottom: 0;
     margin-left: -30px;
     left: 50%;
   }
+
   #banner i.fa {
     font-size: 42px;
     width: 120px;
@@ -27,16 +31,16 @@
     background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
     border-radius: 50%;
     color: #fff;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 10px 10px 10px #0000000d;
   }
+
   #banner h3 {
     font-weight: 500;
     padding: 5px 0;
     color: #fff;
   }
+
   #banner p {
-    color: rgba(255, 255, 255, 0.75);
+    color: #ffffffbf;
   }
-  #banner .service-desc {
-    margin-bottom: 40px;
-  }
+  
