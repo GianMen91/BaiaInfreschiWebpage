@@ -50,7 +50,7 @@ describe('<Description />', () => {
     const iframeElement = wrapper.find('iframe')
     expect(iframeElement.exists()).toBe(true)
     expect(iframeElement.prop('src')).toEqual(expect.stringContaining('google.com/maps'))
-    expect(iframeElement.prop('width')).toEqual('500')
+    expect(iframeElement.prop('width')).toEqual('100%')
     expect(iframeElement.prop('height')).toEqual('350')
   })
 })

@@ -3,7 +3,7 @@ import './intro.css'
 
 export const Intro = () => {
   return (
-    <div className="intro-container"> {/* You can add a container div for additional styling if needed */}
+    <div className="intro-container"> {}
       <img src="img/baia-infreschi-homepage.jpg" className="responsive-image" />
     </div>
   )
