@@ -3,14 +3,9 @@ import './intro.css'
 
 export const Intro = () => {
   return (
-      <div id="intro">
-        <div className="overlay">
-          <div className="container">
-            <div className="row">
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="intro-container"> {/* You can add a container div for additional styling if needed */}
+      <img src="img/baia-infreschi-homepage.jpg" className="responsive-image" />
+    </div>
   )
 }
 
