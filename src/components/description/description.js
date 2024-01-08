@@ -7,7 +7,6 @@ export const Description = (props) => {
     <div id="description">
       <div className="container">
         <div className="row">
-
           <div className="col-xs-12 col-md-6">
             <div className="description-text">
               <h2>Descrizione</h2>

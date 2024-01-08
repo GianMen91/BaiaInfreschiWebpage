@@ -1,39 +1,13 @@
 #description {
   padding: 100px 0;
-}
-
-#description h3 {
-  font-size: 22px;
-  margin: 0 0 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #description h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
-}
-
-#description .description-text li {
-  margin-bottom: 6px;
-  margin-left: 6px;
-  list-style: none;
-  padding: 0;
-}
-
-#description .description-text li:before {
-  content: "\f00c";
-  color: #5ca9fb;
-  font-size: 11px;
-  font-weight: 300;
-  padding-right: 8px;
-}
-
-#description img {
-  width: 520px;
-  margin-top: 10px;
-  background: #fff;
-  border-right: 0;
-  box-shadow: 0 0 50px #0000000f;
 }
 
 #description p {
