@@ -1,5 +1,5 @@
-import React from "react";
-import './infoSection.css';
+import React from 'react'
+import './infoSection.css'
 
 export const Infosection = ({ items }) => {
   return (
@@ -21,7 +21,7 @@ export const Infosection = ({ items }) => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Infosection;
+export default Infosection
