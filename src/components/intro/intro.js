@@ -1,9 +1,9 @@
 import React from 'react'
-import './imageBlock.css'
+import './intro.css'
 
-export const ImageBlock = () => {
+export const Intro = () => {
   return (
-      <div className="intro">
+      <div id="intro">
         <div className="overlay">
           <div className="container">
             <div className="row">
@@ -14,4 +14,4 @@ export const ImageBlock = () => {
   )
 }
 
-export default ImageBlock
+export default Intro

@@ -1,16 +1,22 @@
-@media screen and (max-width: 400px) {
+@media screen and (width < 400px) {
   #description {
-    padding: 20px;
-    width: 111%;
+  padding: 20px;
+  width: 111%;
   }
+
+  #intro {
+    width: 50%;
+  }
+
   #infosection {
-      width: 111%;
-    }
-  #footer {
     width: 111%;
   }
 
+  #footer {
+  width: 111%;
+  }
+
   #gallery {
-    width: 110%;
+  width: 110%;
   }
 }

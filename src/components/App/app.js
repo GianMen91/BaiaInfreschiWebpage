@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from '../header/header'
-import { ImageBlock } from '../imageBlock/imageBlock'
+import { Intro } from '../intro/intro'
 import { Description } from '../description/description'
 import { Banner } from '../banner/banner'
 import { Gallery } from '../gallery/gallery'
@@ -43,7 +43,7 @@ const App = () => {
   return (
     <div className='App'>
       <Header />
-      <ImageBlock data={landingPageData.ImageBlock} />
+      <Intro data={landingPageData.ImageBlock} />
       <Description data={landingPageData.Description} />
 
       <Banner title='Gallery' text='' />
