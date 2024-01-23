@@ -1,4 +1,4 @@
-# Baiainfreschi.it - Landing Page
+# Baiainfreschi.it - React Landing Page
 
 ## Overview
 
